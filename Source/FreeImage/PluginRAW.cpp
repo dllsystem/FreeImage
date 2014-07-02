@@ -558,6 +558,13 @@ Load(FreeImageIO *io, fi_handle handle, int page, int flags, void *data) {
 		if(header_only) {
 			// header only mode
 			dib = FreeImage_AllocateHeaderT(header_only, FIT_RGB16, RawProcessor->imgdata.sizes.width, RawProcessor->imgdata.sizes.height);
+
+			// store the thumbnail
+			// added to know the dimensions of the embedded preview
+			FIBITMAP *dib_preview = libraw_LoadEmbeddedPreview(RawProcessor, 0);
+			FreeImage_SetThumbnail(dib, dib_preview); 
+			FreeImage_Unload(dib_preview);
+			// MessageBox(0, "Sucesso", "Debug", MB_OK);			
 		}
 		else if((flags & RAW_PREVIEW) == RAW_PREVIEW) {
 			// try to get the embedded JPEG

@@ -58,41 +58,41 @@ XPM files [reading, writing]<br>
 
 <h4>Features:</h4>
 
-<b>Ease of use</b>
+<b>Ease of use</b><br>
 The library has been designed to be extremely simple in use. Our motto is: make difficult things simple instead of simple things difficult.
  
-Not limited to the local PC
+<b>Not limited to the local PC</b><br>
 The unique FreeImageIO structure makes it possible to load your images from virtually anywhere. Possibilities include standalone files, memory, database and the Internet, all this without recompiling the library!
  
-Plugin driven
+<b>Plugin driven</b><br>
 The internal engine is made completely modular using a clever plugin system. Easily write new plugins and store them in DLL files or embed the plugins directly into your application!
  
-Color conversion
+<b>Color conversion</b><br>
 FreeImage provides many functions to convert a bitmap from one bitdepth to another. The library supports 1-, 4-, 8-, 16, 24- and 32-bit standard images, as well as integer, real and complex images.
  
-Common image manipulations
+<b>Common image manipulations</b></br>
 Provides basic image manipulation routines such as rotation, resizing, flipping or color adjustments, as well as lossless JPEG transformations.
  
-Directly access bitmap bits and palette
+<b>Directly access bitmap bits and palette</b><br>
 Functions are provided which allow you to directly access the bitmap palette (if available) and bitmap bits.
  
-Metadata support
+<b>Metadata support</b><br>
 Parse common metadata models attached to your bitmap. FreeImage supports Comments, Exif (including GPS and maker notes), IPTC, Adobe XMP, GeoTIFF and GIF animation metadata models.
  
-Support for High Dynamic Range images
+<b>Support for High Dynamic Range images</b><br>
 FreeImage supports RGB float images as well a 48-bit HDR images and provides tone mapping operators to convert these images to 24-bit LDR images.
  
-Support for RAW files from digital photo cameras
+<b>Support for RAW files from digital photo cameras</b><br>
 FreeImage can load RAW files from digital photo cameras (CRW/CR2, NEF, RAF, DNG, MOS, KDC, DCR, etc), virtually all RAW formats are supported.
  
-Full source code is provided.
+<b>Full source code is provided.</b><br>
 Written in portable C++, the library should compile on all 32-bit or 64-bit Windows, Linux and Mac OSX systems.
 FreeImage also includes comprehensive documentation to help you work with and learn about the code provided.
  
-Open Source Dual-License
+<b>Open Source Dual-License</b><br>
 You can choose the license that has the most advantages for you: Use the liberal FreeImage Public License to use FreeImage commercially or the GNU General Public License to use FreeImage into your open source project.
  
-Easily integrates into DirectX and OpenGL.
+<b>Easily integrates into DirectX and OpenGL.</b><br>
 Only a minimum of programming is necessary to store a FreeImage bitmap into a DirectDraw surface or to use FreeImage to load your Direct3D/OpenGL textures.
  
 Provides test programs to "show-off" the library, compilable and startable on Windows 95, 98, NT, 2000 or on Linux.
